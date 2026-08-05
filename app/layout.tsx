@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from 'next/font/google';
 import "./globals.css";
+import ResponsiveNav from "./components/Home/Navbar/ResponsiveNav";
 
 const font = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -20,9 +21,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${font.className} antialiased`}
+      
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className={`${font.className} antialiased`}>
+        <ResponsiveNav/>
+        {children}</body>
     </html>
   );
 }
