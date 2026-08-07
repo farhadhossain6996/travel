@@ -37,3 +37,42 @@ export const destinationData =[
 },
 
 ]
+
+export const hotelsData=[
+    {
+        id:1,
+        image:"/image/USAHotel.jpg",
+        name:"Tramp Hotel",
+        rating:4.8,
+        location:"New York,USA",
+    },
+    {
+        id:2,
+        image:"/image/UKHotel.jpg",
+        name:"British Hotel",
+        rating:4.6,
+        location:"London,Uk",
+    },
+    {
+        id:3,
+        image:"/image/CanadaHotel.jpg",
+        name:"Mikimouse ",
+        rating:4.8,
+        location:"Toronto,Canada",
+    },
+    {
+        id:4,
+        image:"/image/FrainceHotel.jpg",
+        name:"ParisRoom",
+        rating:4.8,
+        location:"Paris,",
+    },
+    {
+        id:5,
+        image:"/image/DenmarkHotel.jpg",
+        name:"DenmarkHotel",
+        rating:4.8,
+        location:"Denmark",
+    },
+]
+
