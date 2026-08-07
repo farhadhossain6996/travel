@@ -1,0 +1,39 @@
+export const destinationData =[
+{
+    id:1,
+    image:"/image/usa.jpg",
+    country:"USA",
+    travelers:"250,000"
+},
+{
+    id:2,
+    image:"/image/uk.jpg",
+    country:"The Great Britain",
+    travelers:"150,000"
+},
+{
+    id:3,
+    image:"/image/cannada.jpg",
+    country:"Canada",
+    travelers:"750,000"
+},
+{
+    id:4,
+    image:"/image/denmark.jpg",
+    country:"Denmark",
+    travelers:"50,000"
+},
+{
+    id:5,
+    image:"/image/frince.jpg",
+    country:"Frince",
+    travelers:"850,000"
+},
+{
+    id:5,
+    image:"/image/dubi.jpg",
+    country:"Dubai",
+    travelers:"650,000"
+},
+
+]
