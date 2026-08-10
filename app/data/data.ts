@@ -64,14 +64,14 @@ export const hotelsData=[
         id:4,
         image:"/image/FrainceHotel.jpg",
         name:"ParisRoom",
-        rating:4.8,
+        rating:4.9,
         location:"Paris,",
     },
     {
         id:5,
         image:"/image/DenmarkHotel.jpg",
         name:"DenmarkHotel",
-        rating:4.8,
+        rating:5.00,
         location:"Denmark",
     },
 ]

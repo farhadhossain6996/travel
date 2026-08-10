@@ -54,7 +54,17 @@
 import Image from 'next/image';
 import { FaHeart, FaStar, FaMapMarkerAlt } from 'react-icons/fa';
 
-export default function HotelCard({ hotel }) {
+type Props = {
+  hotel: {
+     id: number;
+     location: string;
+    image: string;
+    rating: number;
+    name:string;
+ };
+}
+
+export default function HotelCard({hotel}:Props) {
   return (
     <div className="relative h-[320px] w-full rounded-2xl overflow-hidden cursor-pointer group shadow-md hover:shadow-xl transition-all duration-300">
       
