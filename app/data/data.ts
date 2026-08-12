@@ -67,13 +67,13 @@ export const hotelsData=[
         rating:4.9,
         location:"Paris,",
     },
-    {
-        id:5,
-        image:"/image/DenmarkHotel.jpg",
-        name:"DenmarkHotel",
-        rating:5.00,
-        location:"Denmark",
-    },
+    // {
+    //     id:5,
+    //     image:"/image/DenmarkHotel.jpg",
+    //     name:"DenmarkHotel",
+    //     rating:5.00,
+    //     location:"Denmark",
+    // },
 ]
 
 

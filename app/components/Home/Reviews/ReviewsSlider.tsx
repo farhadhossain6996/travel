@@ -1,34 +1,50 @@
-import { reviewSData } from '@/app/data/data'
-import React from 'react'
-import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+'use client'
+import { destinationData, reviewSData } from '@/app/data/data'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+const responsive = {
+ 
+  desktop: {
+    breakpoint: { max: 3000, min: 1324, },
+    items:1,
+    slidesToSlide: 1
+  },
+  tablet: {
+    breakpoint: { max: 1324, min: 764 },
+    items: 1,
+    slidesToSlide: 1
+  },
+  mobile: {
+    breakpoint: { max: 764, min: 0 },
+    items: 1,
+    slidesToSlide: 1
+  }
+};
 
 const ReviewsSlider = () => {
   return (
-    <div className="relative">
-      <div className="absolute -top-5 left-3 -translate-x-1/2">
-          <FaQuoteLeft className=' text-5xl font-semibold text-gray-800 '/>
-      </div>
-        <div>
-      <div className="w-[500px]  text-center items-center">
-        {
-        reviewSData.map((data)=> {
-            return(
-                <div  key={data.id}>
-<p className='text-3xl font-semibold text-gray-800'>{data.review}</p>
-<p className='text-sm text-gray-500'>{data.tourist}</p>
 
+      <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={5000} keyBoardControl={true} >
 
-                </div>
-            )
-        })
-      }
-      </div>
-    </div>
-<div className="absolute -bottom-8 left-3 -translate-x-1/2">
-          <FaQuoteRight className=' text-5xl font-semibold text-gray-800 '/>
-      </div>
-    
-    </div>
+   
+{reviewSData.map((data)=>{
+    return(
+        <div key={data.id} className='py-4 px-2'>
+            <div className="max-w-2xl mx-auto text-center space-y-4">
+                <div className="text-4xl text-gray-300 font-serif leading-none">“</div>
+      
+<p className="text-xl md:text-2xl font-medium text-gray-800 leading-relaxed tracking-wide italic">
+          {data.review}
+        </p>
+ <p className="text-sm md:text-base font-semibold text-yellow-500 tracking-wider uppercase pt-2">
+          {data.tourist}
+        </p>
+  </div>
+     </div>
+    )
+})}
+ </Carousel>
+ 
   )
 }
 
