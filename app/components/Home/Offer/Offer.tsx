@@ -11,7 +11,12 @@ const Offer = () => {
 {/* offerCard */}
 <div className="w-[80%] mx-auto">
 
-<OfferCard/>
+<div data-aos="fade-right" data-aos-anchor-placement="top-center"
+ata-aos-duration="200">
+
+<OfferCard />
+</div>
+
 </div>
 
     </div>

@@ -66,7 +66,7 @@ type Props = {
 
 export default function HotelCard({hotel}:Props) {
   return (
-    <div className="relative h-[320px] w-full rounded-2xl overflow-hidden cursor-pointer group shadow-md hover:shadow-xl transition-all duration-300">
+    <div className="relative h-80 w-full rounded-2xl overflow-hidden cursor-pointer group shadow-md hover:shadow-xl transition-all duration-300">
       
       {/* Heart Icon Button */}
       <button 

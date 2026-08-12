@@ -1,6 +1,7 @@
 import { navLinks } from "@/constant/constant";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { FaTruckPlane } from "react-icons/fa6";
 import { HiBars3BottomLeft } from "react-icons/hi2";
 
 type Props={
@@ -23,12 +24,20 @@ return ()=> window.removeEventListener("scroll",handler);
 },[])
 
   return (
-    <div className={` ${navBg ? " bg-blue-900 shadow-md":"fixed"} transition-all duration-300 h-[12vh]
-    z-[1000] fixed w-full `}>
+    <div className={` ${navBg ? " bg-amber-500 shadow-md":"fixed"} transition-all duration-300 h-[10vh]
+    z-102 fixed w-full `}>
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto ">
 
         {/* Logo */}
-        <div className="">logo</div>
+        <div className="flex  items-center space-x-2  ">
+<div className="">
+  <FaTruckPlane className="w-10 h-8
+  10 text-white" />
+</div>
+<p className="text-3xl text-white font-bold  [word-spacing:5px]">Travel </p>
+
+
+        </div>
         {/* NavLinks */}
         <div className="hidden lg:flex items-center space-x-10">
           {navLinks.map((link) => {

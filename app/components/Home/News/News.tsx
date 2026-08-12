@@ -10,26 +10,41 @@ const News = () => {
 
 <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 items-center mt-20">
 
-<NewsCard image="/image/News1.jpg" 
+<div  data-aos="fade-left"
+data-aos-anchor-placement="top-center" >
+  <NewsCard image="/image/News1.jpg" 
 title='Top 5 place to visit in Denmark'
 date="30 July 2025"
 
 />
-<NewsCard image="/image/News2.jpg" 
+</div>
+<div data-aos="fade-left"
+data-aos-anchor-placement="top-center"
+data-aos-delay="100" >
+  <NewsCard image="/image/News2.jpg" 
 title='Top 5 place to visit in Canada'
 date="12 December 2025"
 
 />
-<NewsCard image="/image/News3.jpg" 
+</div>
+<div data-aos="fade-left"
+data-aos-anchor-placement="top-center"
+data-aos-delay="200" >
+  <NewsCard image="/image/News3.jpg" 
 title='Top 5 place to visit in USA'
 date="20 NobemBer 2025"
 
 />
-<NewsCard image="/image/News4.jpg" 
+</div>
+<div  data-aos="fade-left"
+data-aos-anchor-placement="top-center"
+data-aos-delay="300">
+  <NewsCard image="/image/News4.jpg" 
 title='Top 5 place to visit in UK'
 date="12 December 2024"
 
 />
+</div>
 
 
 

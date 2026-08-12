@@ -9,7 +9,7 @@ function SearchBox() {
 
         {/* 1st Search Input */}
         <div className="flex items-center space-x-6">
-        <FaMap className='w-6 h-6 text-yellow-600'/>
+        <FaMap className='w-6 h-6 text-amber-500'/>
         
         <div className="">
             <p className='txt-lg font-medium mb-[0.2rem]'>Location</p>
@@ -20,7 +20,7 @@ function SearchBox() {
  {/* 2nd Search Input */}
 
 <div className="flex items-center space-x-6">
-        <FaCalendarWeek className='w-6 h-6 text-yellow-600'/>
+        <FaCalendarWeek className='w-6 h-6 text-amber-500'/>
         
         <div className="">
             <p className='txt-lg font-medium mb-[0.2rem]'>Start Date</p>
@@ -32,7 +32,7 @@ function SearchBox() {
          {/* 3d Search Input */}
 
 <div className="flex items-center space-x-6">
-        <FaCalendarWeek className='w-6 h-6 text-yellow-600'/>
+        <FaCalendarWeek className='w-6 h-6 text-amber-500'/>
         
         <div className="">
             <p className='txt-lg font-medium mb-[0.2rem]'>End Date</p>
@@ -41,7 +41,7 @@ function SearchBox() {
         </div>
           {/* 4th Search Input */}
 <div className="flex items-center space-x-6">
-        <FaUserGroup className='w-6 h-6 text-yellow-600'/>
+        <FaUserGroup className='w-6 h-6 text-amber-500'/>
         
         <div className="">
             <p className='txt-lg font-medium mb-[0.2rem]'>Guest</p>

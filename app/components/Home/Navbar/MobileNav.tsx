@@ -13,8 +13,8 @@ const MobileNav = ({closeNav,showNav}:Props) =>{
   return (
    <div className="">
     {/* OverLay */}
-   <div className={`fixed ${navOpen} inset-0 transition-all duration-500 z-[1002] bg-black opacity-70 w-full h-screen`}></div>
-<div className={`text-white ${navOpen}  fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-yellow-600 space-y-6 z-[1050]`}>
+   <div className={`fixed ${navOpen} inset-0 transition-all duration-500 z-115 bg-black opacity-70 w-full h-screen`}></div>
+<div className={`text-white ${navOpen}  fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-yellow-600 space-y-6 z-135`}>
   {
     navLinks.map((link)=>{
       return(
