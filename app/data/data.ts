@@ -76,3 +76,21 @@ export const hotelsData=[
     },
 ]
 
+
+export const reviewSData=[
+    {
+    id:1,
+    review:"Booking flights and hotels together was so easy. Highly recommend Gozyraa to everyone.",
+   tourist:"—Engineer, James Carter",
+    },
+    {
+    id:2,
+    review:"I Choosed Gozyraa to pick my travel tickets. and So far its been always best.",
+   tourist:"—CEO, Sean Williams",
+    },
+    {
+    id:3,
+    review:"Gozyraa made our honeymoon trip absolutely seamless. Best travel platform ever!",
+   tourist:"—Travel Blogger, Suru",
+    },
+]

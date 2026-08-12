@@ -3,6 +3,8 @@ import Hero from './Hero/Hero'
 import Destination from './Destination/Destination'
 import Hotel from './Hotel/Hotel'
 import Offer from './Offer/Offer'
+import News from './News/News'
+import Reviews from './Reviews/Reviews'
 
 function Home() {
   return (
@@ -11,6 +13,8 @@ function Home() {
 <Destination/>
 <Hotel/>
 <Offer/>
+<Reviews/>
+<News/>
 </div>
   )
 }
